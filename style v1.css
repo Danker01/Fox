@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.n1{
+	display: flex;
+	flex-direction: row;
+	background-image: url("images/africa.jpg");
+	background-size: cover;
+
+}
+.PLF{
+	font-size: 50pt;
+	color: #8BAB0D;
+	border-bottom: 5pt double 	#8BAB0D;
+	text-shadow: -2pt -2pt black;
+	width: 240pt;
+	margin: auto auto auto 50px;
+	height: 190pt;
+}
+#nn1{
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+}
+.n2{
+	display: flex;
+	flex-direction: row;
+}
+#img{
+	height: 100%;
+}
+.sc{
+	background-color: #FFD275;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color:#E1E11F;
+	border-left: #82B103 dotted 10px;
+}
+#i1{
+	border: 5px solid #82B103;
+	border-radius: 50%;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	font-size: 19px;
+	padding: 10px;
+	background-color: #82B103;
+	margin: 5px 10px;
+}
+.sc #i2{
+	margin: auto;
+}
+#i2{
+	border: 5px solid #82B103;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	font-size: 17px;
+	padding: 15px;
+	background-color: #82B103;
+	border-radius: 0 50% 50% 50%;
+	margin: 5px 0;
+}
+#i3{
+	border: 5px solid #82B103;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	font-size: 17px;
+	padding: 15px;
+	background-color: #82B103;
+	border-radius: 0 50% 0 50%;
+	margin: 5px 10px;
+}
+.sc #i3{
+	margin-left: auto;
+}
+.n3{
+	display: flex;
+	flex-direction: row;
+	background-color: #F2F98F;	
+}
+.n3 img{
+	height: 100%;
+}
+.n3 div{
+	color: #6E3D00;
+	width: 100%;
+	height: 100%;
+	margin: auto 30px;
+	padding: 75px;
+	font-size: 24px;
+	border-style: solid;
+	border-image-width: 30px;
+	border-image-source: url(images/foot_frame.png);
+	border-image-slice: 40;
+	border-image-repeat: round;
+}
+.n4{
+	background-image: url("images/bottom_fox.jpg");
+	background-size: 100%;
+}
+.n4 .lol{	
+	margin: 0 400px 0 100px;
+	padding: 40px 0px 40px 40px;
+	font-size: 24px;
+	border: solid 10px;
+	border-image: linear-gradient(0deg, rgba(255,255,0,1) 50%, rgba(0,0,255,1) 50%);
+	border-image-slice: 20;
+}
+.aaaaa{
+	padding: 165px 0 165px 0;
+}
